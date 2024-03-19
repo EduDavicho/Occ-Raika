@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+*{
+  font-family: 'Inter';
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.active {
+  @apply font-semibold;
+  @apply text-paleta-iconosMenu 
+}
+
+*, ::before, ::after {
+  border-style: solid;
+  border-color: #e9791a;
+}
+
